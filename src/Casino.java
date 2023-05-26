@@ -21,8 +21,8 @@ public class Casino {
     }
 
     public void printDeck() {
-        for (Card card : deck) {
-            card.printCardInfo();
+        for (int x = 0; x < deck.size(); x++) {
+            deck.get(x).printCardInfo();
         }
     }
 }
